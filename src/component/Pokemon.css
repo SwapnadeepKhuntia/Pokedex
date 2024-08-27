@@ -1,0 +1,19 @@
+.pokemon-list-wraper{
+    /* margin: 2rem auto; */
+}
+.pokemon-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.loder{
+    position:absolute;
+    left: 50%;
+}
+button:disabled:hover,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: black;
+  
+}
